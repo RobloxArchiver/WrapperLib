@@ -15,11 +15,9 @@
 ⠀⠀⠀⠀⠀⠀⠈⠛⠿⣿⣿⣿⣿⣿⣶⣶⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠛⠛⠛⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-Rewritten same day first pushed to make better documentation
+Rewriting soon, on todo list.
 
-Why name function arguments v1, v2, v3 etc? Because yes :)
-
-
+Send games to "Dr. Dre#0001"
 
 ]]
 
@@ -49,6 +47,10 @@ local GetSelection = GetSelection -- these probably are useful to nobody except 
 local GetAwaiting = GetAwaiting
 local GetSetting = GetSetting
 local SetSelection = SetSelection
+-- GetService
+local RService = game:GetService("ReplicatedStorage")
+-- should be everything written down, if i find anything I havent written I will write it.
+-- Note this part will be held back for a bit as I am working on other games
 
 
 return remotelib
