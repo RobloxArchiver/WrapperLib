@@ -15,54 +15,40 @@
 ⠀⠀⠀⠀⠀⠀⠈⠛⠿⣿⣿⣿⣿⣿⣶⣶⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠛⠛⠛⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-    Released to Public Domain by RobloxArchiver, Alyx Softworks, JR.
+Rewritten same day first pushed to make better documentation
+
+Why name function arguments v1, v2, v3 etc? Because yes :)
+
+
 
 ]]
 
-local brookhaven = {}
+local remotelib = {}
 
--- Remotes (For easy updates)
-local Avatar = U14pdateA14vatar
-local OriginalCharacter = A14vatarOriginalCharacterC14lient
-local NameEvent = R14PNameE14vent
-local NoMV = NoMotorVehicles
+---- Remote Events
+local Flying = Flying -- whats hte point of these?
+local ClockEvents = ClockEvents -- in the event of an update that changes remotes
+local GettingHouse = G14ettingH14ouse -- which is unlikely but possible
+local PlayersHouse = PlayersHouse -- it will be easy to fix this in a timely manner
+local RPHouseEvent = RPHouseEvent
+local RPHouseEventColor = RPHouseEventColor
+local RPNameEvent = R14PNameE14vent
+local RPNameEventColor = R14PNameE14ventColor
+local Jobs = J14ob14s
+local Themes = T14heme14s
+local BabyFollow = BabyFollow
+local Clothes = Clothes
+local UpdateAvatar = U14pdateA14vatar
+local AvatarOriginalCharacterClient = A14vatarOriginalCharacterC14lient
+local PlayerHouseChoice = P14layerHouseC14hoice
+local AnimationsFireClient = A14nimationsFireC14lient
+---- BindableFunction
+local GetPrint = GetPrint -- not important but you never know
+local GetApi = GetApi -- + I am writing everything down
+local GetSelection = GetSelection -- these probably are useful to nobody except this one
+local GetAwaiting = GetAwaiting
+local GetSetting = GetSetting
+local SetSelection = SetSelection
 
--- game:GetService("ReplicatedStorage").[location].[remotename]:FireServer/Invoke(args)
--- game.ReplicatedStorage.[location].[remotename]:FireServer/Invoke(args)
 
-function brookhaven.ResetAvatar()
-    RService.RemoteEvents.OriginalCharacter:FireServer("OCA")
-end
-
--- RateLimited = false
--- brookhaven.RoleplayName(NewName)
-function brookhaven.RoleplayName(NewName)
-    RService.RemoteEvents.NameEvent:FireServer("RolePlayName", NewName)
-end
-
--- RateLimited = false
--- brookhaven.EquipItem(ItemID)
-function brookhaven.EquipItem(ItemID)
-    RService.RemoteEvents.Avatar:FireServer("wear", ItemID)
-end
-
--- RateLimited = false
--- brookhaven.Skintone(Color)
--- Check documentation for all colors
-function brookhaven.Skintone(ColorVal)
-    RService.RemoteEvents.Avatar:FireServer("skintone", ColorVal)
-end
-
--- RateLimited = false
--- Deletes vehicles without a motor (bike, wheelchair, etc)
-function brookhaven.deleteNMV()
-    RService.RemoteEvents.NoMV:FireServer("Delete NoMotorVehicle")
-end
-
--- RateLimited = false
--- Check documentation for all known NMV
-function brookhaven.spawnNMV(vehicleName)
-    game:GetService("ReplicatedStorage").RemoteEvents.NoMV:FireServer(vehicleName)
-end
-
-return brookhaven
+return remotelib
