@@ -17,7 +17,7 @@
 
 Rewriting soon, on todo list.
 
-Send games to "Dr. Dre#0001"
+Send games to "RobloxArchiver#6814"
 
 ]]
 

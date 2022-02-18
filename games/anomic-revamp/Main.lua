@@ -19,41 +19,28 @@ Rewriting soon, on todo list.
 
 Send games to "RobloxArchiver#6814"
 
-Patch: removed network var, broke it.
-
 ]]
 
 local remotelib = {}
 
--- vars and shit
+-- Vars
 local RService = game:GetService("ReplicatedStorage")
+-- vars
 
--- string, value
--- type: "Deposit" "Withdrawl"
-function remotelib.ATM(type, amount)
-    RService._network.atm:InvokeServer(type, amount)
+-- value
+-- ragdolls you, can be abused.
+function remotelib.ragdoll(damage)
+    RService.Events.Ragdoll:FireServer(damage)
 end
 
--- string, string
--- type: "Gender" "AutoReload" "HoldType"
+-- Requires Vehicle to be location
+-- EXAMPLE:
 --[[
-    "Gender": "Girl", "Boy"
-    "AutoReload": "on", "off"
-    "HoldType": "side", "nrml"
+    workspace.PlayerVehicles.Devil.Chassis.FloorPanel
+    Breakdown of it: workspace.PlayerVehicles.[VehicleName].Chassis.[Part]
 ]]
-function remotelib.settingschange(type, string)
-    RService._network.settings:FireServer(type, string)
+function remotelib.HitByCar(vehicleLocation)
+    RService.Events.HitByCar:FireServer(vehicleLocation)
 end
-
--- string, string
--- type: "deli"
--- item (deli): "Water", "BloxyCola", "Surgical Mask (White)", "Surgical Mask (Black)", "Balaclava", "OpenBalaclava"
--- BROKEN AS OF NOW
-function remotelib.purchase(type, item)
-    RService._network.purchase:InvokeServer(type, item)
-end
-
--- Remotes that are abusable finding more!
--- I have a bone to pick with this game
 
 return remotelib
