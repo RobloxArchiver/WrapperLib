@@ -1,4 +1,4 @@
-# RemoteModule
-Module for Roblox Exploiting with support for multiple games, has set of remotes to be used easily.
-# Paused
-Pausing this shit lib for one reason: Laziness + Wanting to mess around with more stuff.
+# WrapperLib
+Wrappers for Games on Roblox. Wraps all Remotes for simple use. And when I say all I mean all! 
+# Index
+COMING SOON
