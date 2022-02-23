@@ -1,4 +1,10 @@
 # WrapperLib
-Wrappers for Games on Roblox. Wraps all Remotes for simple use. And when I say all I mean all! 
+Library for Quick Development of scripts, supports most major exploits.
+# NOTICE
+Make a issue with game requests. 
+
+Second Notice: This is meant to wrap FUNCTIONS AND MODULES for quickly deploying scripts. 
+
+Third Notice: If the game sucks I will not make shit for it. Make shit yourself and push it.
 # Index
-COMING SOON
+[Anomic Revamped](games/Anomic-Revamped)
