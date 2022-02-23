@@ -7,4 +7,4 @@ Second Notice: This is meant to wrap FUNCTIONS AND MODULES for quickly deploying
 
 Third Notice: If the game sucks I will not make shit for it. Make shit yourself and push it.
 # Index
-[Anomic Revamped](games/Anomic-Revamped)
+[Anomic Revamped](games/anomic-revamp)
