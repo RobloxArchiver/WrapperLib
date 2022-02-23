@@ -1,3 +1,3 @@
 # Index as of 2/23/2022
 
-- [Anomic Revamped](games/anomic-revamp)
+- [Anomic Revamped](anomic-revamp)
