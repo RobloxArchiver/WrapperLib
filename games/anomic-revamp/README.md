@@ -18,22 +18,23 @@ I provide multiple dumps that contain useful data. These are dumped with Synapse
  All information here can be useful to the right person
 
 ## Remotes
-### Data and Checks
-`ProcessCashChange`
+- All the shit related to remotes
+## Data and Checks
+### `ProcessCashChange`
 
 summary: First remote I can grab at a logical time, Probably checks cash. 
 ```lua
 <void> WrapperLib.ProcessCashChange()
 ```
 
-`ChangeClientDaytime`
+### `ChangeClientDaytime`
 
 summary: might be related to keeping daynight cycle synced?
 ```lua
 <void> WrapperLib.ChangeClientDaytime()
 ```
 
-`HitByCar`
+### `HitByCar`
 
 summary: makes you get hit by a car
 
@@ -43,7 +44,7 @@ path: Path to part of car
 <void> WrapperLib.HitByCar(<string> path)
 ```
 
-`LoadProperty`
+### `LoadProperty`
 
 summary: loads property
 
@@ -55,7 +56,7 @@ plot: `"Empty"`
 <void> WrapperLib.LoadProperty(<instance> property, <string> plot)
 ```
 
-`OnPlace`
+### `OnPlace`
 
 summary: spawns in furniture
 
