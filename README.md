@@ -1,7 +1,7 @@
 # WrapperLib
 Library for Quick Development of scripts, supports most major exploits.
 
-RECONTINUED!!!!!!!!!!
+I shall be giving this more attention as it will be used in a upcoming hub. 
 
 # Index
 [Click Me :D](games)
