@@ -11,6 +11,8 @@ Whatever you choose to do with this is beyond me.
 
 [Remotes](https://github.com/RobloxArchiver/WrapperLib/blob/main/games/anomic-revamp/README.md#remotes)
 
+[Modules](https://github.com/RobloxArchiver/WrapperLib/blob/main/games/anomic-revamp/README.md#module-heavy-wip)
+
 # Dumps
 I provide multiple dumps that contain useful data. These are dumped with Synapse X I can provide a whole Place Dump if it seems worth it.
 
