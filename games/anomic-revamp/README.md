@@ -11,13 +11,13 @@ Whatever you choose to do with this is beyond me.
 
 [Remotes](https://github.com/RobloxArchiver/WrapperLib/blob/main/games/anomic-revamp/README.md#remotes)
 
-## Dumps
+# Dumps
 I provide multiple dumps that contain useful data. These are dumped with Synapse X I can provide a whole Place Dump if it seems worth it.
 
 [Dump Folder](Dumps)
  All information here can be useful to the right person
 
-## Remotes
+# Remotes
 - All the shit related to remotes
 ## Data and Checks
 ### `ProcessCashChange`
@@ -29,16 +29,16 @@ summary: First remote I can grab at a logical time, Probably checks cash.
 
 ### `ChangeClientDaytime`
 
-summary: might be related to keeping daynight cycle synced?
+*Summary*: May be related to keeping NightCycle synced.
 ```lua
 <void> WrapperLib.ChangeClientDaytime()
 ```
 
 ### `HitByCar`
 
-summary: makes you get hit by a car
+*Summary*: Registers a car hit. 
 
-path: Path to part of car
+*Path*: Part of a random car. 
 
 ```lua
 <void> WrapperLib.HitByCar(<string> path)
@@ -46,21 +46,58 @@ path: Path to part of car
 
 ### `LoadProperty`
 
-summary: loads property
+*Summary*: Loads property
 
-property: anything in `workspace.PlayerPlots`, example: `workspace.PlayerPlots.Bulding8.Plots["Townhome 2"]`
+*Property*: Anything in `workspace.PlayerPlots`, example: `workspace.PlayerPlots.Bulding8.Plots["Townhome 2"]`.
 
-plot: `"Empty"`
+Plot: `"Empty"`
 
 ```lua
 <void> WrapperLib.LoadProperty(<instance> property, <string> plot)
 ```
 
-### `OnPlace`
+### `OnPlace` **(WIP)**
 
-summary: spawns in furniture
+*Summary*: spawns in furniture.
 
-Note: Need to work this out more :)
+*Note*: Need to work this out more :)
 ```lua
 <void> WrapperLib.OnPlace(<instance> property, <string> category, <value> Id, <Vector3> CFrame)
 ```
+
+## Utility
+
+### `SpawnCharacter`
+
+*Summary*: Spawns character at said location
+
+*Locations*: `"Capellupe", "Ridvine", "Lushpine"`
+
+```lua
+<void> WrapperLib.SpawnCharacter(<string> location)
+```
+
+### `ChangeTeam`
+
+*Summary*: Fired when you do anything team related.
+
+*Types*: `"GetTeamJoinInfo", "ChangeTeam"`
+
+*Team*: `"Cab Driver", "Advanced Gunsmith", "Civilian"` (Examples)
+
+```lua
+WrapperLib.ChangeTeam(<string >type, <string> team)
+```
+
+# Module **(HEAVY WIP)**
+
+### `NotificationHandler`
+
+*Summary*: Sends a ingame notification.
+
+*Message*: Whatever you want to say
+
+*Color*: Vec3 value for color.
+
+```lua
+<void> WrapperLib.NotificationHandler(<string> Message, <Vector3> Color)
