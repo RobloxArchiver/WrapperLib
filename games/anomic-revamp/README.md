@@ -34,16 +34,6 @@ summary: First remote I can grab at a logical time, Probably checks cash.
 <void> WrapperLib.ChangeClientDaytime()
 ```
 
-### `HitByCar`
-
-*Summary*: Registers a car hit. 
-
-*Path*: Part of a random car. 
-
-```lua
-<void> WrapperLib.HitByCar(<string> path)
-```
-
 ### `LoadProperty`
 
 *Summary*: Loads property
@@ -56,6 +46,8 @@ Plot: `"Empty"`
 <void> WrapperLib.LoadProperty(<instance> property, <string> plot)
 ```
 
+## Utility
+
 ### `OnPlace` **(WIP)**
 
 *Summary*: spawns in furniture.
@@ -65,7 +57,15 @@ Plot: `"Empty"`
 <void> WrapperLib.OnPlace(<instance> property, <string> category, <value> Id, <Vector3> CFrame)
 ```
 
-## Utility
+### `HitByCar`
+
+*Summary*: Registers a car hit. 
+
+*Path*: Part of a random car. 
+
+```lua
+<void> WrapperLib.HitByCar(<string> path)
+```
 
 ### `SpawnCharacter`
 
