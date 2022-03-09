@@ -31,24 +31,11 @@ function WrapperLib.ChangeClientDaytime()
         game:GetService("ReplicatedStorage").Events.ChangeClientDaytime:FireServer()
 end
 
--- summary: makes you get hit by a car
--- UTU: can simulate hits
--- path: Path to part of the car you get hit by
--- notes: 
-function WrapperLib.HitByCar(path)
-        game:GetService("ReplicatedStorage").Events.HitByCar:FireServer(path)
-end
-
 -- summary: loads property
 -- property: anything in workspace.PlayerPlots, example: workspace.PlayerPlots.Bulding8.Plots["Townhome 2"]
 -- plot: "Empty"
 function WrapperLib.LoadProperty(property, plot)
         game:GetService("ReplicatedStorage").Events.LoadProperty:InvokeServer(property, plot)
-end
-
--- summary: spawns in furniture
-function WrapperLib.OnPlace(property, category, Id, CFrame)
-        property.Network.OnPlace:InvokeServer(category, Id, CFrame)
 end
 
 --#endregion
@@ -72,6 +59,15 @@ They can either purchase something or do as much as spawn you in.
 
 --#region // Utility
 
+
+-- summary: makes you get hit by a car
+-- UTU: can simulate hits
+-- path: Path to part of the car you get hit by
+-- notes: 
+function WrapperLib.HitByCar(path)
+        game:GetService("ReplicatedStorage").Events.HitByCar:FireServer(path)
+end
+
 -- summary: Called when changing location in start
 -- defaults: "Capellupe", "Ridvine", "Lushpine"
 function WrapperLib.SpawnCharacter(location)
@@ -87,7 +83,10 @@ function WrapperLib.ChangeTeam(type, team)
         game:GetService("ReplicatedStorage").Events.ChangeTeam:InvokeServer(type, team)
 end
 
-
+-- summary: spawns in furniture
+function WrapperLib.OnPlace(property, category, Id, CFrame)
+        property.Network.OnPlace:InvokeServer(category, Id, CFrame)
+end
 
 --#endregion
 
