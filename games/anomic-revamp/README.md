@@ -86,7 +86,7 @@ Plot: `"Empty"`
 *Team*: `"Cab Driver", "Advanced Gunsmith", "Civilian"` (Examples)
 
 ```lua
-WrapperLib.ChangeTeam(<string >type, <string> team)
+<void> WrapperLib.ChangeTeam(<string >type, <string> team)
 ```
 
 # Module **(HEAVY WIP)**
