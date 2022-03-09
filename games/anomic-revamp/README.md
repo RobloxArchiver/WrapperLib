@@ -40,7 +40,7 @@ summary: makes you get hit by a car
 path: Path to part of car
 
 ```lua
-<string> WrapperLib.HitByCar(path)
+<void> WrapperLib.HitByCar(<string> path)
 ```
 
 `LoadProperty`
@@ -52,7 +52,7 @@ property: anything in `workspace.PlayerPlots`, example: `workspace.PlayerPlots.B
 plot: `"Empty"`
 
 ```lua
-<script> <string> WrapperLib.LoadProperty(property, plot)
+<void> WrapperLib.LoadProperty(<instance> property, <string> plot)
 ```
 
 `OnPlace`
@@ -61,5 +61,5 @@ summary: spawns in furniture
 
 Note: Need to work this out more :)
 ```lua
-WrapperLib.OnPlace(property, category, Id, CFrame)
+<void> WrapperLib.OnPlace(<instance> property, <string> category, <value> Id, <Vector3> CFrame)
 ```
