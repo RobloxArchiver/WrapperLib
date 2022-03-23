@@ -1,4 +1,3 @@
-
 -- Decompiled with the Synapse X Luau decompiler.
 
 return {
@@ -58,6 +57,15 @@ return {
 	Ram_Use = 8395552548, 
 	Bandage_use = 8600382646, 
 	Bandage_use_loop = 8601019183, 
-	Bandage_use_targetPlayer_loop = 8601192951
+	Bandage_use_targetPlayer_loop = 8601192951, 
+	Bored = 5230599789, 
+	Confused = 4940561610, 
+	Sideway_Gun_Large_Hold = 9018078185, 
+	Sideway_Gun_Large_Fire = 9018104565, 
+	OneHanded_Holster = 9018880376, 
+	Cowboy_Gun_Hold = 9019016227, 
+	Cowboy_Gun_Fire_Light = 9019036723, 
+	Cowboy_Gun_Fire_Heavy = 9019048073, 
+	PistolEquip = 9101158431, 
+	Shock = 9101258090
 };
-

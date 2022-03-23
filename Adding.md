@@ -1,2 +1,2 @@
-# Games being Added SOON
-Paintball Wars **(New Game)**
+# Games being worked on
+- Death Zone!

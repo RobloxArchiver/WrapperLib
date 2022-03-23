@@ -1,4 +1,3 @@
-
 -- Decompiled with the Synapse X Luau decompiler.
 
 return {
@@ -200,4 +199,3 @@ return {
 		}
 	}
 };
-
