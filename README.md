@@ -4,7 +4,11 @@ Library for Quick Development of scripts, supports most major exploits.
 I shall be giving this more attention as it will be used in a upcoming hub. 
 
 # Index
-[Click Me :D](games)
+- [Anomic Revamped](games/anomic-revamp)
+- [Da Hood](games/da-hood)
+- [Death Zone](games/death-zone)
+Or into the games directory!
+- [Games Dir](games)
 
 # NOTICE
 Make a issue with game requests. 
