@@ -17,7 +17,7 @@ All the docs regarding remotes collected so far!
 
 
 <!-- #region // AirPlaneMode -->
-### `WL.AirPlaneMode()`
+### `AirPlaneMode`
 Toggles AirPlaneMode.
 
 To untoggle execute again. 
@@ -28,7 +28,7 @@ To untoggle execute again.
 <!-- #endregion -->
 
 <!-- #region // DropMoney -->
-### `WL.DropMoney(val)`
+### `DropMoney`
 Name says it all, drops money. 
 May require wallet out, I am not sure!
 
@@ -40,7 +40,7 @@ Note: Has to be written as a **String**
 <!-- #endregion -->
 
 <!-- #region // PhoneCall -->
-### `WL.PhoneCall(username)`
+### `PhoneCall`
 Calls said user, requires phone out. 
 
 Can't be spammed. 
@@ -51,7 +51,7 @@ Can't be spammed.
 <!-- #endregion -->
 
 <!-- #region // TimerMoney -->
-### `WL.TimerMoney()`
+### `TimerMoney`
 Unknown what it does!
 But I have to write it down lol.
 
@@ -61,7 +61,7 @@ But I have to write it down lol.
 <!-- #endregion -->
 
 <!-- #region // IS_MOBILE -->
-### `WL.IS_MOBILE(b1)`
+### `IS_MOBILE`
 Toggles `IS_MOBILE`
 
 Might be able to use in autoexec
@@ -74,7 +74,7 @@ Unkown as of now.
 <!-- #endregion -->
 
 <!-- #region // Grabbing -->
-### `WL.Grabbing(b1)`
+### `Grabbing`
 Randomly sent as false. 
 
 So I am writing it down!
@@ -85,7 +85,7 @@ So I am writing it down!
 <!-- #endregion -->
 
 <!-- #region // TeleportDetect -->
-### `WL.TeleportDetect()`
+### `TeleportDetect`
 Fired when you teleport.
 
 Maybe it can be blocked to prevent shit? 
@@ -109,7 +109,7 @@ More will be written soon! I found a ton with effects.
 <!-- #endregion -->
 
 <!-- #region // AnonymousValue -->
-### `WL.AnonymousValue(bool)`
+### `AnonymousValue`
 Enabled Anonymous, works without gamepass if I am sure.
 
 ```lua
@@ -118,7 +118,7 @@ Enabled Anonymous, works without gamepass if I am sure.
 <!-- #endregion -->
 
 <!-- #region // AirPlaneModeValue -->
-### `WL.AirPlaneModeValue(value)`
+### `AirPlaneModeValue`
 Changes AirPlaneMode to true 
 
 Alternative to the remote version
@@ -132,7 +132,7 @@ Alternative to the remote version
 <!-- #endregion -->
 
 <!-- #region // PoliceValue -->
-### `WL.PoliceValue(value)`
+### `PoliceValue`
 Changes your team to police (FE?)
 
 **0 = false
@@ -144,7 +144,7 @@ Changes your team to police (FE?)
 <!-- #endregion -->
 
 <!-- #region // LogValue -->
-### `WL.LogValue(value)`
+### `LogValue`
 Maybe its about combat logging?
 
 **0 = false
@@ -156,7 +156,7 @@ Maybe its about combat logging?
 <!-- #endregion -->
 
 <!-- #region // ArmourSaveValue -->
-### `WL.ArmorSaveValue(value)`
+### `ArmorSaveValue`
 Maybe it checks on if you arre allowed to save armour on leave?
 
 Or on death?
@@ -167,7 +167,7 @@ Or on death?
 <!-- #endregion -->
 
 <!-- #region // BattleRoyale -->
-### `WL.BattleRoyale(b1)`
+### `BattleRoyale`
 If set to true it tps you and initiates BR on yourself, a few other vals have to be enabled for it to MAYBE work.
 
 ```lua
@@ -176,7 +176,7 @@ If set to true it tps you and initiates BR on yourself, a few other vals have to
 <!-- #endregion -->
 
 <!-- #region // BattleRoyaleFFA -->
-### `WL.BattleRoyaleFFA(b1)`
+### `BattleRoyaleFFA`
 It enabled FFA in BattleRoyale. 
 
 It's pretty cool honestly (ENABLE BR FIRST)
