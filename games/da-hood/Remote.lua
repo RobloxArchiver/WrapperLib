@@ -35,5 +35,9 @@ function WL.TeleportDetect()
     game:GetService("ReplicatedStorage").MainEvent:FireServer("TeleportDetect")
 end
 
-return WL
+-- // Reasons: "Exploiting" "Audio"
+function WL.REPORT_PLAYER(player, reason)
+    game:GetService("ReplicatedStorage").MainEvent:FireServer("REPORT_PLAYER", game:GetService("Players")[player], reason)
+end
 
+return WL

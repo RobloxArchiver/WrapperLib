@@ -15,6 +15,15 @@ All the docs regarding remotes collected so far!
 
 <!-- SEPARATOR -->
 
+<!-- #region // REPORT_PLAYER -->
+### **NEW** `REPORT_PLAYER`
+Reports player for said reason.
+
+Reasons: `"Exploiting"` `"Audio"`
+```lua
+<void> WL.REPORT_PLAYER(<string> player, <string> reason)
+```
+<!-- #endregion -->
 
 <!-- #region // AirPlaneMode -->
 ### `AirPlaneMode`
