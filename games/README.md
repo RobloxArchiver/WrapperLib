@@ -1,7 +1,16 @@
 # Latest Updates
 
-Added Da Hood
+Da Hood Updates: 
+```
+Added "REPORT_PLAYER" function
+```
 
-Added Death Zone
+Death Zone Updates: 
+```
+Started Work
+```
 
-Removed some shit
+Anomic Updates: 
+```
+Pausing!
+```
