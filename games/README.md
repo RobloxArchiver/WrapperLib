@@ -1,5 +1,7 @@
-# Index as of 2/23/2022
+# Latest Updates
 
-- [Anomic Revamped](anomic-revamp)
-- [Da Hood](da-hood)
-- [Death Zone](death-zone)
+Added Da Hood
+
+Added Death Zone
+
+Removed some shit
