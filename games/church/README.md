@@ -19,4 +19,12 @@ False = Turns off AFK tag**
 <void> WL.afkTog(<bool> toggle)
 ```
 
+### `WL.typeTog`
+Toggles the Typing tag over you. 
+
+Good for faking chatting I guess?
+```lua
+<void> WL.typeTog(<bool> toggle)
+```
+
 <!-- I wil finish the rest later -->
