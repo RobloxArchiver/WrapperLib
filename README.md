@@ -1,8 +1,13 @@
 <!-- #region // WrapperLib-->
 # WrapperLib
-Library for Quick Development of scripts, supports most major exploits.
+Library for Quick Development of scripts, supports practically every exploit with game:GetHttp support, which is basically every exploit by now!
 
-I shall be giving this more attention as it will be used in a upcoming hub. 
+Feel free to push your own remotes, values, modules etc into WL!
+<!-- #endregion -->
+
+<!-- #region // Discord -->
+# Support Server
+[Our Discord (Down ATM!)](https://discord.com/)
 <!-- #endregion -->
 
 <!-- #region // Index-->
@@ -10,13 +15,12 @@ I shall be giving this more attention as it will be used in a upcoming hub.
 - [Anomic Revamped](games/anomic-revamp)
 - [Da Hood](games/da-hood)
 - [Death Zone](games/death-zone)
+- [Church](games/church)
 <!-- #endregion -->
 
-<!-- #region // Notice -->
-# NOTICE
-Make a issue with game requests. 
+<!-- #region // Projects -->
+# Scripts/GUI's/Projects Using WL
+If you'd like your script/project to be added it has to use WL. 
 
-Second Notice: This is meant to wrap FUNCTIONS AND MODULES for quickly deploying scripts. 
-
-Third Notice: If the game sucks I will not make shit for it. Make and push it if you want. 
+- [Preacher Bot WL Showcase](https://github.com/RobloxArchiver/PreacherBot)
 <!-- #endregion -->
