@@ -3,6 +3,9 @@
 Library for Quick Development of scripts, supports practically every exploit with game:GetHttp support, which is basically every exploit by now!
 
 Feel free to push your own remotes, values, modules etc into WL!
+
+To learn how to use it head over
+- [here!](games/How_TO_Use)
 <!-- #endregion -->
 
 <!-- #region // Discord -->
