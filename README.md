@@ -10,10 +10,6 @@ I shall be giving this more attention as it will be used in a upcoming hub.
 - [Anomic Revamped](games/anomic-revamp)
 - [Da Hood](games/da-hood)
 - [Death Zone](games/death-zone)
-
-Or into the games directory!
-
-- [Games Dir](games)
 <!-- #endregion -->
 
 <!-- #region // Notice -->

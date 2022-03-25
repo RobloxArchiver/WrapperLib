@@ -1,3 +1,5 @@
+-- // Wont be documented! Simple and easy to read! 
+
 local UW = {}
 
 -- Will be used in future scripts
