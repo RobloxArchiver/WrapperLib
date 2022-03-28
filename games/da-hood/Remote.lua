@@ -40,4 +40,9 @@ function WL.REPORT_PLAYER(player, reason)
     game:GetService("ReplicatedStorage").MainEvent:FireServer("REPORT_PLAYER", game:GetService("Players")[player], reason)
 end
 
+-- // Uses Promo Codes
+function WL.EnterPromoCode(code)
+    game:GetService("ReplicatedStorage").MainEvent:FireServer("EnterPromoCode", code)
+end
+
 return WL
