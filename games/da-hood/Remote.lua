@@ -45,4 +45,19 @@ function WL.EnterPromoCode(code)
     game:GetService("ReplicatedStorage").MainEvent:FireServer("EnterPromoCode", code)
 end
 
+-- // Set to True to buy 10, false buys one. 
+function WL.PurchaseSkinCrate(purchaseMultiple)
+    game:GetService("ReplicatedStorage").MainEvent:FireServer("PurchaseSkinCrate", purchaseMultiple)
+end
+
+-- // Issue: Gun has to be written as [gunname]
+-- // Usage Example: EquipWeaponSkins("[AK47]", "Gold Glory")
+function WL.EquipWeaponSkins(gun, skin)
+    game:GetService("ReplicatedStorage").MainEvent:FireServer("EquipWeaponSkins", gun, skin)
+end
+
+function WL.UpdateMousePos(x, y, z)
+    game:GetService("ReplicatedStorage").MainEvent:FireServer("UpdateMousePos", Vector3.new(x, y, z))
+end
+
 return WL

@@ -15,8 +15,53 @@ All the docs regarding remotes collected so far!
 
 <!-- SEPARATOR -->
 
+<!-- #region // UpdateMousePos -->
+### **NEW** `UpdateMousePos`
+Updates position of mouse to server. 
+
+Maybe a new anticheat? Block remote moment?
+
+```lua
+<void> WL.UpdateMousePos(<vector3> x, y, z)
+```
+<!-- #endregion -->
+
+<!-- #region // EquipWeaponSkins -->
+### **NEW** `EquipWeaponSkins`
+Equips weapon skin. 
+
+```lua
+<void> WL.EquipWeaponSkins(<string> gun, <string>, skin)
+```
+Usage Example:
+
+```lua
+WL.EquipWeaponSkins("[AK47]", "Gold Glory")
+```
+<!-- #endregion -->
+
+<!-- #region // PurchaseSkinCrate -->
+### **NEW** `PurchaseSkinCrate`
+Purchases Skin Crates. 
+
+Set to true to buy 10, false buys one. 
+
+```lua
+<void> WL.PurchaseSkinCrate(<bool> purchaseMultiple)
+```
+<!-- #endregion -->
+
+<!-- #region // EnterPromoCode -->
+### **NEW** `EnterPromoCode`
+Uses promocode. 
+
+```lua
+<void> WL.EnterPromoCode(<string> code)
+```
+<!-- #endregion -->
+
 <!-- #region // REPORT_PLAYER -->
-### **NEW** `REPORT_PLAYER`
+### `REPORT_PLAYER`
 Reports player for said reason.
 
 Reasons: `"Exploiting"` `"Audio"`
