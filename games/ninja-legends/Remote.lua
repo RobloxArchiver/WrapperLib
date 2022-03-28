@@ -78,8 +78,9 @@ function WL.groupRewards()
     game:GetService("ReplicatedStorage").rEvents.groupRemote:InvokeServer("groupRewards")
 end
 
+-- May be broken! 
 function WL.openFortuneWheel()
-    game:GetService("ReplicatedStorage").rEvents.openFortuneWheelRemote:InvokeServer("")
+    game:GetService("ReplicatedStorage").rEvents.openFortuneWheelRemote:InvokeServer("openFortuneWheel", workspace["FortuneWheel"])
 end
 
 return WL
