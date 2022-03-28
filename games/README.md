@@ -1,3 +1,8 @@
+# Usage
+For usage guide open this.
+
+- [Usage Guide](how-TO-use)
+
 # Supported
 All currently supported games. 
 
