@@ -27,4 +27,4 @@ Good for faking chatting I guess?
 <void> WL.typeTog(<bool> toggle)
 ```
 
-<!-- I wil finish the rest later -->
+<!-- Wait it was done -->
