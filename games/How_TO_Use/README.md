@@ -19,4 +19,10 @@ Put this at the top of your script.
 
 Lust like that you can just load it in and use!
 
+# UtilityWrapper
+```lua
+local UW = loadstring(game:HttpGetAsync("https://github.com/RobloxArchiver/WrapperLib/blob/main/misc/UtilityWrapper.lua"))()
+```
+Throw on top of your script to use. 
+
 # Reffer to Documentation of whatgever you use on usage!
