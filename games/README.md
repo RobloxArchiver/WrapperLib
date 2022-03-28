@@ -1,7 +1,7 @@
 # Usage
 For usage guide open this.
 
-- [Usage Guide](how-TO-use)
+- [Usage Guide](How-TO-Use)
 
 # Supported
 All currently supported games. 
