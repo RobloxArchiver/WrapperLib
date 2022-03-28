@@ -8,9 +8,12 @@ This is my personal list of reasons to use it.
 - Script Development
 Spend more time actually developing it instead of looking for remotes and what does what!
 
-# Loadstring
+# Load
 ```lua
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RobloxArchiver/WrapperLib/main/games/church/Remote.lua"))()
+-- For games check the index
+local gameWL = "church" -- Example :)
+
+local WL = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RobloxArchiver/WrapperLib/main/games/" .. gameWL .. "/Remote.lua"))()
 ```
 Put this at the top of your script. 
 
