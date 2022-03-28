@@ -27,3 +27,8 @@ If you'd like your script/project to be added it has to use WL.
 
 - [Preacher Bot WL Showcase](https://github.com/RobloxArchiver/PreacherBot)
 <!-- #endregion -->
+
+# Credits
+- A random man on v3rm for the server hopper in UW.
+- Hydroxide as my main pen testing tool. 
+- And Viewers like you, thank you. :)
