@@ -1,16 +1,8 @@
-# Latest Updates
+# Supported
+All currently supported games. 
 
-Da Hood Updates: 
-```
-Added "REPORT_PLAYER" function
-```
-
-Death Zone Updates: 
-```
-Started Work
-```
-
-Anomic Updates: 
-```
-Pausing!
-```
+- [Anomic Revamped](anomic-revamped) - (WIP)
+- [Church](church)
+- [Da Hood](da-hood) - (HAS MOST)
+- [Death Zone](death-zone) - (WIP)
+- [Ninja Legends](ninja-legends) - (WIP)
