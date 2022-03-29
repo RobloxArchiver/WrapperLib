@@ -10,7 +10,7 @@ To learn how to use it head over
 
 <!-- #region // Discord -->
 # Support Server
-[Our Discord (Down ATM!)](https://discord.com/)
+[Our Discord (Celia)](https://discord.gg/C4Nfj72paC)
 <!-- #endregion -->
 
 <!-- #region // Index-->
