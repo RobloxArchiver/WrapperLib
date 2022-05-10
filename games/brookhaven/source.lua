@@ -128,6 +128,11 @@ local job_offsets = {
     judge = "8770936346";
 }
 
+local babyfollower_offsets = {
+    babyboy = "BabyBoy";
+    babygirl = "BabyGirl";
+}
+
 function WrapperLib:Init()
     local libraries = {};
 
@@ -452,6 +457,24 @@ function WrapperLib:Init()
             end;
 
             return job;
+        end;
+
+        function remotes:GetBabyFollow()
+            local baby_follow = {};
+
+            function baby_follow.DeleteFollowCharacter()
+                offsets.baby_follow:FireServer("DeleteFollowCharacter");
+            end;
+
+            function baby_follow.BabyBoy()
+                offsets.baby_follow:FireServer("CharacterFollowSpawnPlayer", babyfollower_offsets.babyboy);
+            end;
+
+            function baby_follow.BabyGirl()
+                offsets.baby_follow:FireServer("CharacterFollowSpawnPlayer", babyfollower_offsets.babygirl);
+            end;
+
+            return baby_follow;
         end;
 
         return remotes;
