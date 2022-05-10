@@ -5,3 +5,5 @@
 [GetRPNameText](documentation/GetRPNameText.md)
 
 [GetJob](documentation/GetJob.md)
+
+[GetBabyFollow](documentation/GetBabyFollow.md)
