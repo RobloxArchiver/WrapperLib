@@ -1,11 +1,11 @@
-## Getting GetJob()
+# Getting GetJob()
 `GetJob()` is also parented to `GetRemotes()` so to use it you'd once again needed. 
 
 ```lua
 local GetJob = GetRemotes:GetJob();
 ```
 
-### GiveCustomJob(id)
+## GiveCustomJob(id)
 
 ```lua
 GetJob:GiveCustomJob("string");
@@ -15,440 +15,442 @@ GetJob:GiveCustomJob("string");
 | --------- | ----------------------------------- | ------- |
 | id        | Sets the ID used. Must be a string. | N/A     |
 
-### quitJob()
+## quitJob()
 
 ```lua
 GetJob:quitJob()
 ```
 
-### dancer()
+## dancer()
 
 ```lua
 GetJob:dancer()
 ```
 
-### grocery_store()
+## grocery_store()
 
 ```lua
 GetJob:grocery_store()
 ```
 
-### police()
+## police()
 
 ```lua
 GetJob:police()
 ```
 
-### hospital()
+## hospital()
 
 ```lua
 GetJob:hospital()
 ```
 
-### hair_and_nails()
+## hair_and_nails()
 
 ```lua
 GetJob:hair_and_nails()
 ```
 
-### student()
+## student()
 
 ```lua
 GetJob:student()
 ```
 
-### fire_house()
+## fire_house()
 
 ```lua
 GetJob:fire_house()
 ```
 
-### bodyguard()
+## bodyguard()
 
 ```lua
 GetJob:bodyguard()
 ```
 
-### teacher()
+## teacher()
 
 ```lua
 GetJob:teacher()
 ```
 
-### bank()
+## bank()
 
 ```lua
 GetJob:bank()
 ```
 
-### clothing()
+## clothing()
 
 ```lua
 GetJob:clothing()
 ```
 
-### _swat()
+## _swat()
 
 ```lua
 GetJob:_swat()
 ```
 
-### utuber()
+## utuber()
 
 ```lua
 GetJob:utuber()
 ```
 
-### mayor()
+## mayor()
 
 ```lua
 GetJob:mayor()
 ```
 
-### babysitter()
+## babysitter()
 
 ```lua
 GetJob:babysitter()
 ```
 
-### actor()
+## actor()
 
 ```lua
 GetJob:actor()
 ```
 
-### driver()
+## driver()
 
 ```lua
 GetJob:driver()
 ```
 
-### repairman()
+## repairman()
 
 ```lua
 GetJob:repairman()
 ```
 
-### stables()
+## stables()
 
 ```lua
 GetJob:stables()
 ```
 
-### maid()
+## maid()
 
 ```lua
 GetJob:maid()
 ```
 
-### criminal()
+## criminal()
 
 ```lua
 GetJob:criminal()
 ```
 
-### athlete()
+## athlete()
 
 ```lua
 GetJob:athlete()
 ```
 
-### news()
+## news()
 
 ```lua
 GetJob:news()
 ```
 
-### model()
+## model()
 
 ```lua
 GetJob:model()
 ```
 
-### principal()
+## principal()
 
 ```lua
 GetJob:principal()
 ```
 
-### singer()
+## singer()
 
 ```lua
 GetJob:singer()
 ```
 
-### chef()
+## chef()
 
 ```lua
 GetJob:chef()
 ```
 
-### musician()
+## musician()
 
 ```lua
 GetJob:musician()
 ```
 
-### day_care()
+## day_care()
 
 ```lua
 GetJob:day_care()
 ```
 
-### brooks_diner()
+## brooks_diner()
 
 ```lua
 GetJob:brooks_diner()
 ```
 
-### ice_cream()
+## ice_cream()
 
 ```lua
 GetJob:ice_cream()
 ```
 
-### gamer()
+## gamer()
 
 ```lua
 GetJob:gamer()
 ```
 
-### detective()
+## detective()
 
 ```lua
 GetJob:detective()
 ```
 
-### lifeguard()
+## lifeguard()
 
 ```lua
 GetJob:lifeguard()
 ```
 
-### club_brooks()
+## club_brooks()
 
 ```lua
 GetJob:club_brooks()
 ```
 
-### at_home_mom()
+## at_home_mom()
 
 ```lua
 GetJob:at_home_mom()
 ```
 
-### movies()
+## movies()
 
 ```lua
 GetJob:movies()
 ```
 
-### `at_home_dad()
+## `at_home_dad()
 
 ```lua
 GetJob:at_home_dad()
 ```
 
-### church()
+## church()
 
 ```lua
 GetJob:church()
 ```
 
-### pilot()
+## pilot()
 
 ```lua
 GetJob:pilot()
 ```
 
-### flight_attendant()
+## flight_attendant()
 
 ```lua
 GetJob:flight_attendant()
 ```
 
-### security()
+## security()
 
 ```lua
 GetJob:security()
 ```
 
-### spy()
+## spy()
 
 ```lua
 GetJob:spy()
 ```
 
-### office_worker()
+## office_worker()
 
 ```lua
 GetJob:office_worker()
 ```
 
-### happy_burger()
+## happy_burger()
 
 ```lua
 GetJob:happy_burger()
 ```
 
-### writer()
+## writer()
 
 ```lua
 GetJob:writer()
 ```
 
-### mos_pizza()
+## mos_pizza()
 
 ```lua
 GetJob:mos_pizza()
 ```
 
-### military()
+## military()
 
 ```lua
 GetJob:military()
 ```
 
-### fitness_trainer()
+## fitness_trainer()
 
 ```lua
 GetJob:fitness_trainer()
 ```
 
-### patient()
+## patient()
 
 ```lua
 GetJob:patient()
 ```
 
-### sell_houses()
+## sell_houses()
 
 ```lua
 GetJob:sell_houses()
 ```
 
-### park_ranger()
+## park_ranger()
 
 ```lua
 GetJob:park_ranger()
 ```
 
-### volunteer_worker()
+## volunteer_worker()
 
 ```lua
 GetJob:volunteer_worker()
 ```
 
-### dentis()
+## dentis()
 
 ```lua
 GetJob:dentis()
 ```
 
-### postal_worker()
+## postal_worker()
 
 ```lua
 GetJob:postal_worker()
 ```
 
-### tow_truck_driver()
+## tow_truck_driver()
 
 ```lua
 GetJob:tow_truck_driver()
 ```
 
-### adoption_worker()
+## adoption_worker()
 
 ```lua
 GetJob:adoption_worker()
 ```
 
-### janitor()
+## janitor()
 
 ```lua
 GetJob:janitor()
 ```
 
-### librarian()
+## librarian()
 
 ```lua
 GetJob:librarian()
 ```
 
-### business_person()
+## business_person()
 
 ```lua
 GetJob:business_person()
 ```
 
-### paranormal_hunter()
+## paranormal_hunter()
 
 ```lua
 GetJob:paranormal_hunter()
 ```
 
-### race_car_driver()
+## race_car_driver()
 
 ```lua
 GetJob:race_car_driver()
 ```
 
-### photographer()
+## photographer()
 
 ```lua
 GetJob:photographer()
 ```
 
-### car_wash()
+## car_wash()
 
 ```lua
 GetJob:car_wash()
 ```
 
-### gardener()
+## gardener()
 
 ```lua
 GetJob:gardener()
 ```
 
-### farmer()
+## farmer()
 
 ```lua
 GetJob:farmer()
 ```
 
-### referee()
+## referee()
 
 ```lua
 GetJob:referee()
 ```
 
-### astronaut()
+## astronaut()
 
 ```lua
 GetJob:astronaut()
 ```
 
-### starbrooks()
+## starbrooks()
 
 ```lua
 GetJob:starbrooks()
 ```
 
-### agency()
+## agency()
 
 ```lua
 GetJob:agency()
 ```
 
-### lawyer()
+## lawyer()
 
 ```lua
 GetJob:lawyer()
 ```
 
-### judge()
+## judge()
     
 ```lua
 GetJob:judge()
 ```
+
+# [Back to Index](https://github.com/RobloxArchiver/WrapperLib/tree/main/games/brookhaven#index)
