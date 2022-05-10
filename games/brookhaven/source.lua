@@ -364,7 +364,7 @@ function WrapperLib:Init()
                 offsets.job:FireServer("GiveJobUIMenu", job_offsets.sell_houses, job_offsets.sell_houses, true);
             end;
 
-            function job.sell_park_ranger()
+            function job.park_ranger()
                 offsets.job:FireServer("GiveJobUIMenu", job_offsets.sell_park_ranger, job_offsets.sell_park_ranger, true);
             end;
 
