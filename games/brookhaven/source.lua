@@ -53,7 +53,7 @@ local offsets = {
 }
 
 local job_offsets = {
-    givejobuimenu = job_offsets.givejobuimenu;
+    givejobuimenu = "GiveJobUiMenu";
     quitjob = "QuitJob",
     dancer = "5650351691";
     grocery_store = "5183368377";
