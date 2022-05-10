@@ -10,9 +10,9 @@ To learn how to use it head over
 [General Scripts](https://dsc.gg/general-scripts/)
 
 # Index
-- [Da Hood](games/da-hood)
-- [Church](games/church)
 - [Brookhaven](games/brookhaven)
+
+Want to suggest games? PM me on Discord! 
 
 # Scripts/GUI's/Projects Using WL
 If you'd like your script/project to be added it has to use WL. 
