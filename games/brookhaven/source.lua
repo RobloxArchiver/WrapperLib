@@ -53,8 +53,6 @@ local offsets = {
 }
 
 local job_offsets = {
-    givejobuimenu = "GiveJobUiMenu";
-    quitjob = "QuitJob",
     dancer = "5650351691";
     grocery_store = "5183368377";
     police = "5183401063";
@@ -154,299 +152,299 @@ function WrapperLib:Init()
             local job = {};
 
             function job:GiveCustomJob(id)
-                offsets.job:FireServer(job_offsets.givejobuimenu, id, id, true);
+                offsets.job:FireServer("GiveJobUiMenu", id, id, true);
             end;
 
             function job.quitjob()
-                offsets.job:FireServer(job_offsets.quitjob);
+                offsets.job:FireServer("QuitJob");
             end;
 
             function job.dancer()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.dancer, job_offsets.dancer, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.dancer, job_offsets.dancer, true);
             end;
 
             function job.grocery_store()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.grocery_store, job_offsets.grocery_store, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.grocery_store, job_offsets.grocery_store, true);
             end;
 
             function job.police()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.police, job_offsets.police, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.police, job_offsets.police, true);
             end;
 
             function job.hopsital()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.hospital, job_offsets.hospital, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.hospital, job_offsets.hospital, true);
             end;
 
             function job.hair_and_nails()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.hair_and_nails, job_offsets.hair_and_nails, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.hair_and_nails, job_offsets.hair_and_nails, true);
             end;
 
             function job.student()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.student, job_offsets.student, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.student, job_offsets.student, true);
             end;
 
             function job.fire_house()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.fire_house, job_offsets.fire_house, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.fire_house, job_offsets.fire_house, true);
             end;
 
             function job.bodyguard()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.bodyguard, job_offsets.bodyguard, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.bodyguard, job_offsets.bodyguard, true);
             end;
 
             function job.teacher()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.teacher, job_offsets.teacher, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.teacher, job_offsets.teacher, true);
             end;
 
             function job.bank()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.bank, job_offsets.bank, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.bank, job_offsets.bank, true);
             end;
 
             function job.clothing()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.clothing, job_offsets.clothing, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.clothing, job_offsets.clothing, true);
             end;
 
             function job._swat()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets._swat, job_offsets._swat, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets._swat, job_offsets._swat, true);
             end;
 
             function job.utuber()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.utuber, job_offsets.utuber, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.utuber, job_offsets.utuber, true);
             end;
 
             function job.mayor()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.mayor, job_offsets.mayor, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.mayor, job_offsets.mayor, true);
             end;
 
             function job.babysitter()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.babysitter, job_offsets.babysitter, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.babysitter, job_offsets.babysitter, true);
             end;
 
             function job.actor()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.actor, job_offsets.actor, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.actor, job_offsets.actor, true);
             end;
 
             function job.driver()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.driver, job_offsets.driver, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.driver, job_offsets.driver, true);
             end;
 
             function job.repairman()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.repairman, job_offsets.repairman, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.repairman, job_offsets.repairman, true);
             end;
 
             function job.stables()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.stables, job_offsets.stables, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.stables, job_offsets.stables, true);
             end;
 
             function job.maid()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.maid, job_offsets.maid, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.maid, job_offsets.maid, true);
             end;
 
             function job.criminal()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.criminal, job_offsets.criminal, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.criminal, job_offsets.criminal, true);
             end;
 
             function job.athlete()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.athlete, job_offsets.athlete, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.athlete, job_offsets.athlete, true);
             end;
 
             function job.news()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.news, job_offsets.news, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.news, job_offsets.news, true);
             end;
 
             function job.model()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.model, job_offsets.model, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.model, job_offsets.model, true);
             end;
 
             function job.principal()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.principal, job_offsets.principal, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.principal, job_offsets.principal, true);
             end;
 
             function job.singer()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.singer, job_offsets.singer, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.singer, job_offsets.singer, true);
             end;
 
             function job.chef()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.chef, job_offsets.chef, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.chef, job_offsets.chef, true);
             end;
 
             function job.musician()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.musician, job_offsets.musician, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.musician, job_offsets.musician, true);
             end;
 
             function job.day_care()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.day_care, job_offsets.day_care, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.day_care, job_offsets.day_care, true);
             end;
 
             function job.brooks_diner()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.brooks_diner, job_offsets.brooks_diner, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.brooks_diner, job_offsets.brooks_diner, true);
             end;
 
             function job.ice_cream()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.ice_cream, job_offsets.ice_cream, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.ice_cream, job_offsets.ice_cream, true);
             end;
 
             function job.gamer()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.gamer, job_offsets.gamer, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.gamer, job_offsets.gamer, true);
             end;
 
             function job.detective()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.detective, job_offsets.detective, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.detective, job_offsets.detective, true);
             end;
 
             function job.lifeguard()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.lifeguard, job_offsets.lifeguard, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.lifeguard, job_offsets.lifeguard, true);
             end;
 
             function job.club_brooks()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.club_brooks, job_offsets.club_brooks, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.club_brooks, job_offsets.club_brooks, true);
             end;
             
             function job.at_home_mom()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.at_home_mom, job_offsets.at_home_mom, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.at_home_mom, job_offsets.at_home_mom, true);
             end;
 
             function job.movies()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.movies, job_offsets.movies, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.movies, job_offsets.movies, true);
             end;
 
             function job.at_home_dad()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.at_home_dad, job_offsets.at_home_dad, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.at_home_dad, job_offsets.at_home_dad, true);
             end;
 
             function job.church()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.church, job_offsets.church, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.church, job_offsets.church, true);
             end;
 
             function job.pilot()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.pilot, job_offsets.pilot, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.pilot, job_offsets.pilot, true);
             end;
 
             function job.flight_attendant()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.flight_attendant, job_offsets.flight_attendant, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.flight_attendant, job_offsets.flight_attendant, true);
             end;
 
             function job.security()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.security, job_offsets.security, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.security, job_offsets.security, true);
             end;
 
             function job.spy()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.spy, job_offsets.spy, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.spy, job_offsets.spy, true);
             end;
 
             function job.office_worker()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.office_worker, job_offsets.office_worker, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.office_worker, job_offsets.office_worker, true);
             end;
 
             function job.happy_burger()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.happy_burger, job_offsets.happy_burger, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.happy_burger, job_offsets.happy_burger, true);
             end;
 
             function job.writer()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.writer, job_offsets.writer, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.writer, job_offsets.writer, true);
             end;
 
             function job.mos_pizza()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.mos_pizza, job_offsets.mos_pizza, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.mos_pizza, job_offsets.mos_pizza, true);
             end;
 
             function job.military()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.military, job_offsets.military, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.military, job_offsets.military, true);
             end;
 
             function job.fitness_trainer()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.fitness_trainer, job_offsets.fitness_trainer, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.fitness_trainer, job_offsets.fitness_trainer, true);
             end;
 
             function job.patient()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.patient, job_offsets.patient, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.patient, job_offsets.patient, true);
             end;
 
             function job.sell_houses()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.sell_houses, job_offsets.sell_houses, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.sell_houses, job_offsets.sell_houses, true);
             end;
 
             function job.park_ranger()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.sell_park_ranger, job_offsets.sell_park_ranger, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.sell_park_ranger, job_offsets.sell_park_ranger, true);
             end;
 
             function job.volunteer_worker()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.volunteer_worker, job_offsets.volunteer_worker, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.volunteer_worker, job_offsets.volunteer_worker, true);
             end;
 
             function job.dentis()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.dentis, job_offsets.dentis, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.dentis, job_offsets.dentis, true);
             end;
 
             function job.postal_worker()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.postal_worker, job_offsets.postal_worker, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.postal_worker, job_offsets.postal_worker, true);
             end;
 
             function job.tow_truck_driver()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.tow_truck_driver, job_offsets.tow_truck_driver, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.tow_truck_driver, job_offsets.tow_truck_driver, true);
             end;
 
             function job.adoption_worker()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.adoption_worker, job_offsets.adoption_worker, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.adoption_worker, job_offsets.adoption_worker, true);
             end;
 
             function job.janitor()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.janitor, job_offsets.janitor, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.janitor, job_offsets.janitor, true);
             end;
 
             function job.librarian()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.librarian, job_offsets.librarian, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.librarian, job_offsets.librarian, true);
             end;
 
             function job.business_person()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.business_person, job_offsets.business_person, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.business_person, job_offsets.business_person, true);
             end;
 
             function job.paranormal_hunter()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.paranormal_hunter, job_offsets.paranormal_hunter, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.paranormal_hunter, job_offsets.paranormal_hunter, true);
             end;
 
             function job.race_car_driver()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.race_car_driver, job_offsets.race_car_driver, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.race_car_driver, job_offsets.race_car_driver, true);
             end;
 
             function job.photogtapher()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.photogtapher, job_offsets.photogtapher, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.photogtapher, job_offsets.photogtapher, true);
             end;
 
             function job.car_wash()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.car_wash, job_offsets.car_wash, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.car_wash, job_offsets.car_wash, true);
             end;
 
             function job.gardener()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.gardener, job_offsets.gardener, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.gardener, job_offsets.gardener, true);
             end;
 
             function job.farmer()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.farmer, job_offsets.farmer, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.farmer, job_offsets.farmer, true);
             end;
 
             function job.referee()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.referee, job_offsets.referee, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.referee, job_offsets.referee, true);
             end;
 
             function job.astronaut()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.astronaut, job_offsets.astronaut, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.astronaut, job_offsets.astronaut, true);
             end;
 
             function job.starbrooks()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.starbrooks, job_offsets.starbrooks, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.starbrooks, job_offsets.starbrooks, true);
             end;
 
             function job.agency()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.agency, job_offsets.agency, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.agency, job_offsets.agency, true);
             end;
 
             function job.lawyer()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.lawyer, job_offsets.lawyer, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.lawyer, job_offsets.lawyer, true);
             end;
 
             function job.judge()
-                offsets.job:FireServer(job_offsets.givejobuimenu, job_offsets.judge, job_offsets.judge, true);
+                offsets.job:FireServer("GiveJobUiMenu", job_offsets.judge, job_offsets.judge, true);
             end;
 
             return job;
