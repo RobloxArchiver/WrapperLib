@@ -145,6 +145,10 @@ function WrapperLib:Init()
                 offsets.rpnametext:FireServer("RolePlayBio", text);
             end;
 
+            function rpnametext.RolePlayFollow(text)
+                offsets.rpnametext:FireServer("RolePlayFollow", text);
+            end;
+
             return rpnametext;
         end;
 

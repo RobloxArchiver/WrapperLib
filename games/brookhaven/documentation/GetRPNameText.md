@@ -25,4 +25,14 @@ GetRpName.RolePlayBio("string);
 | --------- | ---------------------------- | ------- |
 | text      | Changes text of RolePlayBio  | N/A     |
 
+## RolePlayFollow(text)
+
+```lua
+GetRPName.RolePlayFollow("string");
+```
+
+| Arguments | Usage                        | Default |
+| --------- | ---------------------------- | ------- |
+| text      | Changes text of RolePlayFollow | N/A     |
+
 # [Back to Index](https://github.com/RobloxArchiver/WrapperLib/tree/main/games/brookhaven#index)
