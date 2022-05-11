@@ -133,6 +133,67 @@ local babyfollower_offsets = {
     babygirl = "BabyGirl";
 }
 
+local color_offsets = {
+    pastel_brown = "Pastel brown";
+    light_orange = "Light orange";
+    dark_nougat = "Dark nougat";
+    brown = "Brown";
+    pine_cone = "Pine Cone";
+    dirt_brown = "Dirt brown";
+    really_black = "Really black";
+    black = "Black";
+    smoky_grey = "Smoky grey";
+    dark_stone_grey = "Dark stone grey";
+    medium_stone_grey = "Medium stone grey";
+    fossil = "Fossil";
+    flint = "Flint";
+    cloudy_grey = "Cloudy grey";
+    mid_grey = "Mid grey";
+    institutional_white = "Institutional white";
+    mulberry = "Mulberry";
+    eggplant = "Eggplant";
+    bright_violet = "Bright violet";
+    magenta = "Magenta";
+    royal_purple = "Royal purple";
+    navy_blue = "Navy blue";
+    dark_blue = "Dark blue";
+    really_blue = "Really blue";
+    bright_blue = "Bright blue";
+    cyan = "Cyan";
+    Pastel_light_blue = "Pastel light blue";
+    toothpaste = "Toothpaste";
+    slime_green = "Slime green";
+    earth_green = "Earth green";
+    parsley_green = "Parsley green";
+    forest_green = "Forest green";
+    grime = "Grime";
+    lime_green = "Lime green";
+    artichoke = "Artichoke";
+    mint = "Mint";
+    _br_yellowish_green = "Br. yellowish green";
+    new_yeller = "New Yeller";
+    olive = "Olive";
+    deep_orange = "Deep orange";
+    _br_yellowish_orange = "Br. yellowish orange";
+    fawn_brown = "Fawn brown";
+    burlap = "Burlap";
+    brick_yellow = "Brick yellow";
+    beige = "Beige";
+    cga_brown = "CGA brown";
+    rust = "Rust";
+    cocoa = "Cocoa";
+    maroon = "Maroon";
+    burgundy = "Burgundy";
+    tawny = "Tawny";
+    really_red = "Really red";
+    hot_pink = "Hot pink";
+    pink = "Pink";
+    carnation_pink = "Carnation pink";
+    sunrise = "Sunrise";
+    salmon = "Salmon";
+    light_reddish_violet = "Light reddish violet";
+}
+
 function WrapperLib:Init()
     local libraries = {};
 
@@ -475,6 +536,52 @@ function WrapperLib:Init()
             end;
 
             return baby_follow;
+        end;
+
+        function remotes:GetClothes()
+            local clothes = {};
+
+            function clothes.CharacterSizeDown(amount)
+                if amount <= 1 or amount >= 0.4999999999999996 then
+                    offsets.clothes:FireServer("CharacterSizeDown", amount);
+                end;
+            end;
+
+            function clothes.CharacterSizeUp(amount)
+                if amount <= 1 or amount >= 0.4999999999999996 then
+                    offsets.clothes:FireServer("CharacterSizeUp", amount);
+                end;
+            end;
+
+            return clothes;
+        end;
+
+        function remotes:GetUpdateAvatar()
+            local update_avatar = {};
+
+            function update_avatar.wear(id)
+                offsets.update_avatar:FireServer("wear", id);
+            end;
+
+            function update_avatar.wearPremium(id)
+                offsets.update_avatar:FireServer("wearPremium", id);
+            end;
+
+            function update_avatar.CustomSkintone(color)
+                offsets.update_avatar:FireServer("skintone", color);
+            end;
+
+            return update_avatar;
+        end;
+
+        function remotes:GetAvatarOriginal()
+            local avatar_original = {};
+
+            function avatar_original.OCA()
+                offsets.avatar_original:FireServer("OCA");
+            end;
+
+            return avatar_original;
         end;
 
         return remotes;

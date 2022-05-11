@@ -1,13 +1,21 @@
 # Getting GetRPNameText()
-`GetRPNameText()` is parented to `GetRemotes()` so to use you'd need `GetRemotes()` loaded in.
+
+* Parent: `GetRemotes()`
+* Type: `Method`
+* Offset: `nil`
+* Description: `GetRPNameText()` loader/initiator.
 
 ```lua
 local GetRPNameText = GetRemotes:GetRPNameText();
 ```
 
-Use library if you used the snippet from 
-
 ## RolePlayName(text)
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `nil`
+* Description: Changes RolePlayName
+
 ```lua
 GetRPName.RolePlayName("string");
 ```
@@ -17,6 +25,12 @@ GetRPName.RolePlayName("string");
 | text      | Changes text of RolePlayName | N/A     |
 
 ## RolePlayBio(text)
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `nil`
+* Description: Changes RolePlayBio. 
+
 ```lua
 GetRpName.RolePlayBio("string);
 ```
@@ -26,6 +40,11 @@ GetRpName.RolePlayBio("string);
 | text      | Changes text of RolePlayBio  | N/A     |
 
 ## RolePlayFollow(text)
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `nil`
+* Description: Changes RolePlayFollow's Name.
 
 ```lua
 GetRPName.RolePlayFollow("string");

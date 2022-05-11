@@ -9,17 +9,17 @@ local GetBabyFollow = GetRemotes:GetBabyFollow();
 ## DeleteFollowCharacter()
 
 ```lua
-GetBabyFollow:DeleteFollowCharacter();
+GetBabyFollow.DeleteFollowCharacter();
 ```
 
 ### BabyBoy()
 
 ```lua
-GetBabyFollow:BabyBoy();
+GetBabyFollow.BabyBoy();
 ```
 
 ### BabyGirl()
 
 ```lua
-GetBabyFollow:BabyGirl();
+GetBabyFollow.BabyGirl();
 ```
