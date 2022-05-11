@@ -10,7 +10,7 @@ To learn how to use it head over
 [General Scripts](https://dsc.gg/general-scripts/)
 
 # Index
-- [Brookhaven](games/brookhaven)
+- [Brookhaven](games/4924922222)
 
 Want to suggest games? PM me on Discord! 
 
