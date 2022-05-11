@@ -7,4 +7,4 @@ For usage guide open this.
 # Supported
 All currently supported games. 
 
-- [Brookhaven](brookhaven)
+- [Brookhaven](4924922222)
