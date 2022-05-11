@@ -7,7 +7,7 @@ local function _write(text)
     elseif string.lower(mode) == "rconsoleprint" then
         if rconsoleprint then
             if (identifyexecutor() or getexecutorname()) == "ScriptWare" then
-                rconsolecreate();
+                (rconsolecreate() or consolecreate()) --> ScriptWare Support
             end;
             
             console.log(text);
