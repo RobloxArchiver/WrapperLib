@@ -7,3 +7,9 @@
 [GetJob](documentation/GetJob.md)
 
 [GetBabyFollow](documentation/GetBabyFollow.md)
+
+[GetClothes](documetnation/GetClothes.md)
+
+[GetUpdateAvatar](documentation/GetUpdateAvatar.md)
+
+[GetAvatarOriginal](documentation/GetAvatarOriginal.md)
