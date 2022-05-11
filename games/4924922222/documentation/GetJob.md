@@ -1,5 +1,7 @@
 # Getting GetJob()
 
+`Will finish all the jobs eventually`
+
 * Parent: `GetRemotes()`
 * Type: `Method`
 * Offset: `nil`
