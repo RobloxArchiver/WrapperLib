@@ -26,13 +26,11 @@ end;
 ]]
 
 function MakeDoc(self)
-    _write("## " .. self.functionName);
-    _write("")
+    _write("## " .. self.functionName .. "\n");
     _write("* Parent: `" .. self.parent .. "`");
     _write("* Type: `" .. self.type .. "`");
     _write("* Offset: `" .. self.offset .. "`");
-    _write("* Description: " .. self.desc);
-    _write("")
+    _write("* Description: " .. self.desc .. "\n");
     _write("```lua");
     _write("    " .. self.snippet);
     _write("```")
