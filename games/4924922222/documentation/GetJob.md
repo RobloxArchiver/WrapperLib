@@ -94,11 +94,21 @@ GetJob.hair_and_nails()
 
 ## student()
 
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the student job.
+
 ```lua
 GetJob.student()
 ```
 
 ## fire_house()
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the fire house job.
 
 ```lua
 GetJob.fire_house()
@@ -106,11 +116,21 @@ GetJob.fire_house()
 
 ## bodyguard()
 
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the bodyguard job.
+
 ```lua
 GetJob.bodyguard()
 ```
 
 ## teacher()
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the teacher job.
 
 ```lua
 GetJob.teacher()
@@ -118,11 +138,21 @@ GetJob.teacher()
 
 ## bank()
 
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the bank job.
+
 ```lua
 GetJob.bank()
 ```
 
 ## clothing()
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the clothing job.
 
 ```lua
 GetJob.clothing()
@@ -130,11 +160,21 @@ GetJob.clothing()
 
 ## _swat()
 
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the swat job.
+
 ```lua
 GetJob._swat()
 ```
 
 ## utuber()
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the utuber job.
 
 ```lua
 GetJob.utuber()
@@ -142,11 +182,21 @@ GetJob.utuber()
 
 ## mayor()
 
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the mayor job.
+
 ```lua
 GetJob.mayor()
 ```
 
 ## babysitter()
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the babysitter job.
 
 ```lua
 GetJob.babysitter()
@@ -154,11 +204,21 @@ GetJob.babysitter()
 
 ## actor()
 
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the actor job.
+
 ```lua
 GetJob.actor()
 ```
 
 ## driver()
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the driver job.
 
 ```lua
 GetJob.driver()
@@ -166,11 +226,21 @@ GetJob.driver()
 
 ## repairman()
 
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the repairman job.
+
 ```lua
 GetJob.repairman()
 ```
 
 ## stables()
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the stables job.
 
 ```lua
 GetJob.stables()
@@ -178,11 +248,21 @@ GetJob.stables()
 
 ## maid()
 
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the maid job.
+
 ```lua
 GetJob.maid()
 ```
 
 ## criminal()
+
+* Parent: `GetRemotes()`
+* Type: `Function`
+* Offset: `job_offsets`
+* Description: Gives the player the criminal job.
 
 ```lua
 GetJob.criminal()
