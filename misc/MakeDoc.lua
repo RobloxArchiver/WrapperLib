@@ -7,7 +7,7 @@ local function _write(text)
     elseif string.lower(mode) == "rconsoleprint" then
         if rconsoleprint then
             if (identifyexecutor() or getexecutorname()) == "ScriptWare" then
-                (rconsolecreate() or consolecreate()) --> ScriptWare Support
+                rconsolecreate()
             end;
             
             console.log(text);
@@ -32,6 +32,6 @@ function MakeDoc(self)
     _write("* Offset: `" .. self.offset .. "`");
     _write("* Description: " .. self.desc .. "\n");
     _write("```lua");
-    _write("    " .. self.snippet);
+    _write(self.snippet);
     _write("```")
 end;
