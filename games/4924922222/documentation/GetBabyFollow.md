@@ -1,6 +1,9 @@
 # Getting GetBabyFollow()
 
-`GetBabyFollow()` is parented to `GetRemotes()` and is used to get a "Follower"
+* Parent: `GetRemotes()`
+* Type: `Method`
+* Offset: `nil`
+* Description: `Gets the GetBabyFollow remote.`
 
 ```lua
 local GetBabyFollow = GetRemotes:GetBabyFollow();
@@ -8,17 +11,32 @@ local GetBabyFollow = GetRemotes:GetBabyFollow();
 
 ## DeleteFollowCharacter()
 
+* Parent: `GetBabyFollow()`
+* Type: `Function`
+* Offset: `nil`
+* Description: Deletes the character that is following the player.
+
 ```lua
 GetBabyFollow.DeleteFollowCharacter();
 ```
 
 ### BabyBoy()
 
+* Parent: `GetBabyFollow()`
+* Type: `Function`
+* Offset: `babyfollower_offsets`
+* Description: Sets the character following to BabyBoy.
+
 ```lua
 GetBabyFollow.BabyBoy();
 ```
 
 ### BabyGirl()
+
+* Parent: `GetBabyFollow()`
+* Type: `Function`
+* Offset: `babyfollower_offsets`
+* Description: Sets the character following to BabyGirl.
 
 ```lua
 GetBabyFollow.BabyGirl();

@@ -1,6 +1,9 @@
 # Getting GetClothes()
 
-As always, `GetRemotes()` is needed. Snippet below.
+* Parent: `GetRemotes()`
+* Type: `Method`
+* Offset: `nil`
+* Description: `GetClothes()` loader/initiator.
 
 ```lua
 local GetClothes = GetRemotes:GetClothes()
@@ -8,7 +11,10 @@ local GetClothes = GetRemotes:GetClothes()
 
 ## CharacterSizeDown(amount)
 
-Sets Character Size. 
+* Parent: `GetClothes()`
+* Type: `Function`
+* Offset: `nil`
+* Description: Sizes the Character down.
 
 ```lua
 GetClothes:CharacterSizeDown(amount)
@@ -20,7 +26,10 @@ GetClothes:CharacterSizeDown(amount)
 
 ## CharacterSizeUp(amount)
 
-Sets Character Size.
+* Parent: `GetClothes()`
+* Type: `Function`
+* Offset: `nil`
+* Description: Sizes the Character up.
 
 ```lua
 GetClothes:CharacterSizeUp(amount)
