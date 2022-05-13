@@ -194,6 +194,35 @@ local color_offsets = {
     light_reddish_violet = "Light reddish violet";
 }
 
+local privateservercontrols_offsets = {
+    bubbleui = "BubbleUI";
+    _12PM = "001-12.1PM";
+    _3PM = "002-15.1PM";
+    _6PM = "003-18.1PM";
+    _9PM = "004-21.1PM";
+    _12AM = "005-12.1AM";
+    _3AM = "006-3.1AM";
+    _6AM = "007-6.1AM";
+    _9AM = "008-9.1AM";
+    stoptime = "009-StopTime";
+    timespeednormal = "010-TimeSpeedNormal";
+    timeslowerx1 = "011-TimeSlowerx1";
+    timeslowerx2 = "012-TimeSlowerx2";
+    timeslowerx3 = "013-TimeSlowerx3";
+    normallight = "014-NormalLight";
+    darkness = "015-Darkness";
+    foggy = "016-Foggy";
+    rainonoff = "017-RainONOFF";
+    floodonoff = "018-FloodONOFF";
+    snowonoff = "019-SnowONOFF";
+    snowgroundonoff = "020-SnowGroundONOFF";
+    cloudy = "021-Cloudy";
+    skyclouds = "022-SkyClouds";
+    skyorange = "023-SkyOrange";
+    skygreen = "024-SkyGreen";
+    musicallonoff = "025-MusicAllONOFF";
+}
+
 function WrapperLib:Init()
     local libraries = {};
 
@@ -663,6 +692,8 @@ function WrapperLib:Init()
                 offsets.update_avatar:FireServer("skintone", color_offsets.dark_blue);
             end;
 
+
+
             function update_avatar.really_blue()
                 offsets.update_avatar:FireServer("skintone", color_offsets.really_blue);
             end;
@@ -814,6 +845,124 @@ function WrapperLib:Init()
             end;
 
             return avatar_original;
+        end;
+
+        function remotes:GetFlying()
+            local flying = {};
+
+            function flying.CheckForServerOwner()
+                offsets.flying:FireServer("CheckForServerOwner");
+            end;
+
+            function flying.PrivateServerKickTempBan(player)
+                offsets.flying:FireServer("PrivateServerKickTempBan", player);
+            end;
+
+            function flying.bubbleui()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.bubbleui);
+            end;
+
+            function flying._12PM()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets._12PM);
+            end;
+            
+            function flying._3PM()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets._3PM);
+            end;
+
+            function flying._6PM()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets._6PM);
+            end;
+
+            function flying._9PM()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets._9PM);
+            end;
+
+            function flying._12AM()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets._12AM);
+            end;
+
+            function flying._3AM()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets._3AM);
+            end;
+
+            function flying._6AM()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets._6AM);
+            end;
+
+            function flying._9AM()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets._9AM);
+            end;
+
+            function flying.stoptime()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.stoptime);
+            end;
+
+            function flying.timespeednormal()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.timespeednormal);
+            end;
+
+            function flying.timeslowerx1()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.timeslowerx1);
+            end;
+
+            function flying.timeslowerx2()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.timeslowerx2);
+            end;
+
+            function flying.timeslowerx3()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.timeslowerx3);
+            end;
+
+            function flying.normallight()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.normallight);
+            end;
+
+            function flying.darkness()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.darkness);
+            end;
+
+            function flying.foggy()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.foggy);
+            end;
+            
+            function flying.rainonoff()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.rainonoff);
+            end;
+            
+            function flying.floodonoff()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.floodonoff);
+            end;
+
+            function flying.snowonoff()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.snowonoff);
+            end;
+
+            function flying.snowgroundonoff()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.snowgroundonoff);
+            end;
+
+            function flying.cloudy()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.cloudy);
+            end;
+
+            function flying.skyclouds()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.skyclouds);
+            end;
+
+            function flying.skyorange()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.skyorange);
+            end;
+
+            function flying.skygreen()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.skygreen);
+            end;
+
+            function flying.musicallonoff()
+                offsets.flying:FireServer("PrivateServerClientRequesting", privateservercontrols_offsets.musicallonoff);
+            end;
+
+            return flying;
         end;
 
         return remotes;
