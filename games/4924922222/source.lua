@@ -160,7 +160,7 @@ local color_offsets = {
     really_blue = "Really blue";
     bright_blue = "Bright blue";
     cyan = "Cyan";
-    Pastel_light_blue = "Pastel light blue";
+    pastel_light_blue = "Pastel light blue";
     toothpaste = "Toothpaste";
     slime_green = "Slime green";
     earth_green = "Earth green";
@@ -569,6 +569,238 @@ function WrapperLib:Init()
 
             function update_avatar.CustomSkintone(color)
                 offsets.update_avatar:FireServer("skintone", color);
+            end;
+
+            function update_avatar.pastel_brown()
+                offsets.update_avatar:FireServer("skintone", color_offsets.pastel_brown);
+            end;
+
+            function update_avatar.light_orange()
+                offsets.update_avatar:FireServer("skintone", color_offsets.light_orange);
+            end;
+
+            function update_avatar.dark_nougat()
+                offsets.update_avatar:FireServer("skintone", color_offsets.dark_nougat);
+            end;
+
+            function update_avatar.brown()
+                offsets.update_avatar:FireServer("skintone", color_offsets.brown);
+            end;
+
+            function update_avatar.pine_cone()
+                offsets.update_avatar:FireServer("skintone", color_offsets.pine_cone);
+            end;
+
+            function update_avatar.dirt_brown()
+                offsets.update_avatar:FireServer("skintone", color_offsets.dirt_brown);
+            end;
+
+            function update_avatar.really_black()
+                offsets.update_avatar:FireServer("skintone", color_offsets.really_black);
+            end;
+
+            function update_avatar.black()
+                offsets.update_avatar:FireServer("skintone", color_offsets.black);
+            end;
+
+            function update_avatar.smoky_grey()
+                offsets.update_avatar:FireServer("skintone", color_offsets.smoky_grey);
+            end;
+
+            function update_avatar.dark_stone_grey()
+                offsets.update_avatar:FireServer("skintone", color_offsets.dark_stone_grey);
+            end;
+
+            function update_avatar.medium_stone_grey()
+                offsets.update_avatar:FireServer("skintone", color_offsets.medium_stone_grey);
+            end;
+
+            function update_avatar.fossil()
+                offsets.update_avatar:FireServer("skintone", color_offsets.fossil);
+            end;
+
+            function update_avatar.flint()
+                offsets.update_avatar:FireServer("skintone", color_offsets.flint);
+            end;
+
+            function update_avatar.cloudy_grey()
+                offsets.update_avatar:FireServer("skintone", color_offsets.cloudy_grey);
+            end;
+
+            function update_avatar.mid_grey()
+                offsets.update_avatar:FireServer("skintone", color_offsets.mid_grey);
+            end;
+
+            function update_avatar.institutional_white()
+                offsets.update_avatar:FireServer("skintone", color_offsets.institutional_white);
+            end;
+
+            function update_avatar.mulberry()
+                offsets.update_avatar:FireServer("skintone", color_offsets.mulberry);
+            end;
+
+            function update_avatar.eggplant()
+                offsets.update_avatar:FireServer("skintone", color_offsets.eggplant);
+            end;
+
+            function update_avatar.bright_violet()
+                offsets.update_avatar:FireServer("skintone", color_offsets.bright_violet);
+            end;
+
+            function update_avatar.magenta()
+                offsets.update_avatar:FireServer("skintone", color_offsets.magenta);
+            end;
+
+            function update_avatar.royal_purple()
+                offsets.update_avatar:FireServer("skintone", color_offsets.royal_purple);
+            end;
+
+            function update_avatar.navy_blue()
+                offsets.update_avatar:FireServer("skintone", color_offsets.navy_blue);
+            end;
+
+            function update_avatar.dark_blue()
+                offsets.update_avatar:FireServer("skintone", color_offsets.dark_blue);
+            end;
+
+            function update_avatar.really_blue()
+                offsets.update_avatar:FireServer("skintone", color_offsets.really_blue);
+            end;
+
+            function update_avatar.bright_blue()
+                offsets.update_avatar:FireServer("skintone", color_offsets.bright_blue);
+            end;
+
+            function update_avatar.cyan()
+                offsets.update_avatar:FireServer("skintone", color_offsets.cyan);
+            end;
+
+            function update_avatar.pastel_light_blue()
+                offsets.update_avatar:FireServer("skintone", color_offsets.pastel_light_blue);
+            end;
+
+            function update_avatar.toothpaste()
+                offsets.update_avatar:FireServer("skintone", color_offsets.toothpaste);
+            end;
+
+            function update_avatar.slime_green()
+                offsets.update_avatar:FireServer("skintone", color_offsets.slime_green);
+            end;
+
+            function update_avatar.earth_green()
+                offsets.update_avatar:FireServer("skintone", color_offsets.earth_green);
+            end;
+
+            function update_avatar.parsley_green()
+                offsets.update_avatar:FireServer("skintone", color_offsets.parsley_green);
+            end;
+
+            function update_avatar.forest_green()
+                offsets.update_avatar:FireServer("skintone", color_offsets.forest_green);
+            end;
+
+            function update_avatar.grime()
+                offsets.update_avatar:FireServer("skintone", color_offsets.grime);
+            end;
+
+            function update_avatar.lime_green()
+                offsets.update_avatar:FireServer("skintone", color_offsets.lime_green);
+            end;
+
+            function update_avatar.artichoke()
+                offsets.update_avatar:FireServer("skintone", color_offsets.artichoke);
+            end;
+
+            function update_avatar.mint()
+                offsets.update_avatar:FireServer("skintone", color_offsets.mint);
+            end;
+
+            function update_avatar._br_yellowish_green()
+                offsets.update_avatar:FireServer("skintone", color_offsets._br_yellowish_green);
+            end;
+
+            function update_avatar.new_yeller()
+                offsets.update_avatar:FireServer("skintone", color_offsets.new_yeller);
+            end;
+
+            function update_avatar.olive()
+                offsets.update_avatar:FireServer("skintone", color_offsets.olive);
+            end;
+
+            function update_avatar.deep_orange()
+                offsets.update_avatar:FireServer("skintone", color_offsets.deep_orange);
+            end;
+
+            function update_avatar._br_yellowish_orange()
+                offsets.update_avatar:FireServer("skintone", color_offsets._br_yellowish_orange);
+            end;
+
+            function update_avatar.fawn_brown()
+                offsets.update_avatar:FireServer("skintone", color_offsets.fawn_brown);
+            end;
+
+            function update_avatar.burlap()
+                offsets.update_avatar:FireServer("skintone", color_offsets.burlap);
+            end;
+
+            function update_avatar.brick_yellow()
+                offsets.update_avatar:FireServer("skintone", color_offsets.brick_yellow);
+            end;
+
+            function update_avatar.beige()
+                offsets.update_avatar:FireServer("skintone", color_offsets.beige);
+            end;
+
+            function update_avatar.cga_brown()
+                offsets.update_avatar:FireServer("skintone", color_offsets.cga_brown);
+            end;
+
+            function update_avatar.rust()
+                offsets.update_avatar:FireServer("skintone", color_offsets.rust);
+            end;
+
+            function update_avatar.cocoa()
+                offsets.update_avatar:FireServer("skintone", color_offsets.cocoa);
+            end;
+
+            function update_avatar.maroon()
+                offsets.update_avatar:FireServer("skintone", color_offsets.maroon);
+            end;
+
+            function update_avatar.burgundy()
+                offsets.update_avatar:FireServer("skintone", color_offsets.burgundy);
+            end;
+
+            function update_avatar.tawny()
+                offsets.update_avatar:FireServer("skintone", color_offsets.tawny);
+            end;
+
+            function update_avatar.really_red()
+                offsets.update_avatar:FireServer("skintone", color_offsets.really_red);
+            end;
+
+            function update_avatar.hot_pink()
+                offsets.update_avatar:FireServer("skintone", color_offsets.hot_pink);
+            end;
+
+            function update_avatar.pink()
+                offsets.update_avatar:FireServer("skintone", color_offsets.pink);
+            end;
+
+            function update_avatar.carnation_pink()
+                offsets.update_avatar:FireServer("skintone", color_offsets.carnation_pink);
+            end;
+
+            function update_avatar.sunrise()
+                offsets.update_avatar:FireServer("skintone", color_offsets.sunrise);
+            end;
+
+            function update_avatar.salmon()
+                offsets.update_avatar:FireServer("skintone", color_offsets.salmon);
+            end;
+
+            function update_avatar.light_reddish_violet()
+                offsets.update_avatar:FireServer("skintone", color_offsets.light_reddish_violet);
             end;
 
             return update_avatar;

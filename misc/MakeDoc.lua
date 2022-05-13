@@ -1,3 +1,5 @@
+---@diagnostic disable: undefined-global
+
 local console = loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxArchiver/Console/main/src/main.lua"))():Init(true, "MakeDoc");
 local mode = "print" --> Method Used to Print out.
 
@@ -33,5 +35,6 @@ function MakeDoc(self)
     _write("* Description: " .. self.desc .. "\n");
     _write("```lua");
     _write(self.snippet);
-    _write("```")
+    _write("```");
+    _write("\n\n");
 end;
