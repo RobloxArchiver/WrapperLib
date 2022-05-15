@@ -223,6 +223,14 @@ local privateservercontrols_offsets = {
     musicallonoff = "025-MusicAllONOFF";
 }
 
+local nomotorvehicle_offsets = {
+    scooter = "Scooter";
+    skateboard = "SkateBoard";
+    wheelchair = "WheelChair";
+    girlbike = "GirlBike";
+    bike = "Bike";
+}
+
 function WrapperLib:Init()
     local libraries = {};
 
@@ -963,6 +971,36 @@ function WrapperLib:Init()
             end;
 
             return flying;
+        end;
+
+        function remotes:GetNoMotorVehicles()
+            local nomotorvehicles = {};
+
+            function nomotorvehicles.DeleteNoMotorVehicle()
+                offsets.nomotorvehicles:FireServer("Delete NoMotorVehicle");
+            end;
+
+            function nomotorvehicles.scooter()
+                offsets.nomotorvehicles:FireServer("Create NoMotorVehicle", nomotorvehicle_offsets.scooter);
+            end;
+
+            function nomotorvehicles.skateboard()
+                offsets.nomotorvehicles:FireServer("Create NoMotorVehicle", nomotorvehicle_offsets.skateboard);
+            end;
+
+            function nomotorvehicles.wheelchair()
+                offsets.nomotorvehicles:FireServer("Create NoMotorVehicle", nomotorvehicle_offsets.wheelchair);
+            end;
+
+            function nomotorvehicles.girlbike()
+                offsets.nomotorvehicles:FireServer("Create NoMotorVehicle", nomotorvehicle_offsets.girlbike);
+            end;
+
+            function nomotorvehicles.bike()
+                offsets.nomotorvehicles:FireServer("Create NoMotorVehicle", nomotorvehicle_offsets.bike);
+            end;
+
+            return nomotorvehicles
         end;
 
         return remotes;
