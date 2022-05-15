@@ -39,3 +39,4 @@ GetClothes:CharacterSizeUp(amount)
 | --------- | ---------------------------------------- | ------- |
 | amount     | Sets the amount used. Must be a number. | N/A     |
 
+# [Back to Index](https://github.com/RobloxArchiver/WrapperLib/tree/main/games/brookhaven#index)

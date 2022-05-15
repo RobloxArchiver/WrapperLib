@@ -19,3 +19,5 @@ local GetAvatarOriginal = GetRemotes:GetAvatarOriginal()
 ```lua
 local OCA = GetAvatarOriginal.OCA()
 ```
+
+# [Back to Index](https://github.com/RobloxArchiver/WrapperLib/tree/main/games/brookhaven#index)

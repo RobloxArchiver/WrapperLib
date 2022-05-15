@@ -41,3 +41,5 @@ GetBabyFollow.BabyBoy();
 ```lua
 GetBabyFollow.BabyGirl();
 ```
+
+# [Back to Index](https://github.com/RobloxArchiver/WrapperLib/tree/main/games/brookhaven#index)

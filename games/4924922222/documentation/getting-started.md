@@ -19,7 +19,6 @@ Alternatively if you only need to use one thing (Remotes in this case) just use 
 ```lua
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxArchiver/WrapperLib/main/games/" .. game.PlaceId .. "/source.lua"))():Init():GetRemotes();
 ```
-
 Much simpler and gets straight to the point!
 
 # [Back to Index](https://github.com/RobloxArchiver/WrapperLib/tree/main/games/brookhaven#index)

@@ -1,0 +1,6 @@
+{
+    "rpc.enabled": true,
+    "robloxLsp.diagnostics.disable": [
+        "undefined-global"
+    ]
+}

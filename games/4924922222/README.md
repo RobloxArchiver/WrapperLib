@@ -1,15 +1,25 @@
 # Index
+
+The Guide below helps with getting started with WrapperLib. Click back to index to get back here!
+
 [Getting Started](documentation/getting-started.md)
 
 # Remote
-[GetRPNameText](documentation/GetRPNameText.md)
 
-[GetJob](documentation/GetJob.md)
+Documentation for everything Remote related.
 
-[GetBabyFollow](documentation/GetBabyFollow.md)
+* [GetAvatarOriginal](documentation/GetRemote/GetAvatarOriginal.md)
 
-[GetClothes](documetnation/GetClothes.md)
+* [GetBabyFollow](documentation/GetRemote/GetBabyFollow.md)
 
-[GetUpdateAvatar](documentation/GetUpdateAvatar.md)
+* [GetClothes](documentation/GetRemote/GetClothes.md)
 
-[GetAvatarOriginal](documentation/GetAvatarOriginal.md)
+* [GetFlying](documentation/GetRemote/GetFlying.md)
+
+* [GetJob](documentation/GetRemote/GetJob.md)
+
+* [GetNoMotorVehicles](documentation/GetRemote/GetNoMotorVehicles.md)
+
+* [GetRPNameText](documentation/GetRemote/GetRPNameText.md)
+
+* [GetUpdateAvatar](documentation/GetRemote/GetUpdateAvatar.md)
