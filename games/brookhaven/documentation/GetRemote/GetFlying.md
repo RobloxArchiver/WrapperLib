@@ -20,6 +20,17 @@ local GetFlying = GetRemotes:GetFlying();
 GetFlying:CheckForServerOwner();
 ```
 
+## PCollisionPatch()
+
+* Parent: `GetFlying()`
+* Type: `Function`
+* Offset: `nil`
+* Description: Patches the `PlayerCollision` class.
+
+```lua
+GetFlying:PCollisionPatch();
+```
+
 ## PrivateServerKickTempBan(player)
 
 * Parent: `GetFlying()`

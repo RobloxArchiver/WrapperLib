@@ -862,6 +862,10 @@ function WrapperLib:Init()
                 offsets.flying:FireServer("CheckForServerOwner");
             end;
 
+            function flying.PCollisionPatch()
+                offsets.flying:FireServer("PCollisionPatch");
+            end;
+
             function flying.PrivateServerKickTempBan(player)
                 offsets.flying:FireServer("PrivateServerKickTempBan", player);
             end;
