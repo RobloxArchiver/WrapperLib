@@ -7,7 +7,7 @@ Feel free to push your own remotes, values, modules etc into WL!
 [General Scripts](https://dsc.gg/general-scripts/)
 
 # Index
-- [Brookhaven](games/4924922222)
+- [Brookhaven](games/brookhaven)
 
 Want to suggest games? PM me on Discord! 
 
