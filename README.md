@@ -3,6 +3,10 @@ Library for Quick Development of scripts, supports practically every exploit wit
 
 Feel free to push your own remotes, values, modules etc into WL!
 
+(UPDATE: 2023)
+
+This is complete fucking cancer what the fuck was wrong with me!
+
 # Support Server
 [General Scripts](https://dsc.gg/general-scripts/)
 
